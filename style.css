@@ -31,13 +31,9 @@
 }
 
 .logoimg {
-  margin-left: 100%;
+  display: none;
 }
 
-.logoimg img {
-  width: 120px;
-  height: 50px;
-}
 
 .mobile-menu {
   display: none;
@@ -72,12 +68,6 @@
 
 .homehead {
   background-image: url(/images/base/mobile_intro_bg.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.homehead_about {
-  background-image: url(/images/base/mobile_intro_bgm.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -157,7 +147,6 @@
   padding: 15px;
   border: 1px solid;
   background-color: rgba(255, 255, 255, 0.1);
-
 }
 
 .first_main h4 {
@@ -258,4 +247,195 @@
 
 .speaker_description {
   font-size: 12px;
+}
+
+.above_navbar {
+  display: none;
+}
+
+.program_englink {
+  display: none;
+}
+
+@media (min-width: 780px) {
+  .navigation__hamburger {
+    display: none;
+  }
+
+  .above_navbar {
+    display: block;
+    background-color: #3E3E3E;
+    height: 1.5em;
+  }
+
+  .above_navbar_link {
+    text-align: right;
+    color: #f7f7f7;
+    padding-right: 12%;
+  }
+
+  .above_navbar_link li {
+    display: inline;
+    font-size: small;
+    padding: 5px;
+  }
+
+  .fa-facebook-f {
+    padding-right: 10px;
+  }
+
+  .fa-twitter {
+    padding-right: 12px;
+  }
+
+  .header {
+    height: 3em;
+  }
+
+  .navigation{
+    width: 100%;
+  }
+
+  .navDesk {
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 500;
+    line-height: 10px;
+    font-size: 15px;
+    padding: 1em;
+  }
+
+  .nav_li {
+    padding-left: 20%;
+  }
+
+  .navDesk li {
+    display: inline;
+    padding-left: 35px;
+  }
+
+  .logoimg {
+    margin-left: 10%;
+    display: inline;
+  }
+  
+  .logoimg img {
+    width: 100px;
+    height: 40px;
+  }
+/*HOME PAGE STARTED*/
+  .homehead {
+    background-image: none;
+  }
+
+  .homepa {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(/images/base/main_big.png);
+  }
+  
+  .homepage {
+    margin-top: 0%;
+  }
+
+  .homeheadings {
+    padding-top: 7%;
+    color: red;
+    margin-left: 10%;
+  }
+  
+  .heading_c {
+    font-size: 40px;
+  }
+  
+  .heading_cr {
+    font-weight: bolder;
+    font-size: 60px;
+  }
+  
+  .home_description {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1em 0.5em;
+    line-height: 150%;
+    font-size: 13px;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #f7f7f7;
+  }
+  
+  .location {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    padding-bottom: 5%;
+  }
+  /*Main program section starter*/
+
+  .m_program {
+    background-image: url(/images/base/pattern_bg.png);
+    background-color: rgb(38, 41, 50);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_program_section {
+    display: flex;
+    flex-direction: row;
+    padding-right: 9%;
+    padding-left: 9%;
+    padding-bottom: 1%;
+  }
+
+  .m_program_heading {
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .first_main {
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+
+  .first_main h4 {
+    display: block;
+  }
+
+  .btn_program {
+    display: none;
+  }
+
+  .first_main img {
+    align-content: center;
+  }
+
+  .program_englink {
+    text-align: center;
+    display: block;
+    padding-bottom: 4%;
+  }
+  
+  .program_englink a {
+    color: white;
+    font-size: 12px;
+  }
+  /*Program sec end*/
+
+  .speaker_heading {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .speaker_for_desk {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .speakers_all {
+    padding: 2%;
+  }
+
 }
