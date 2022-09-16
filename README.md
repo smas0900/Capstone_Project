@@ -1,13 +1,12 @@
 # Capstone_Project
  
-> In this and created the mobile version webpage and combine the previous project webpage.
+> The capstone project is built according to design guidelines provided by Microverse. I have personalized the content by creating a website for Web Development Course. For more information, visit html_capstone.
 
 ## Live Demo 
 
-[Portfolio live demo](https://smas0900.github.io/)
+[live demo](https://smas0900.github.io/Capstone_Project/)
 
-To get a local copy up and running follow these simple example steps.
-
+[Video link](https://www.loom.com/share/83ae31433784402fa1be6ead8f3ed87a)
 ## Built With
 
 - Major languages: Html, Css & Javascript
@@ -49,9 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Adapted from this template by Cindy Shin in Behance., used under the Creative Commons License.
 
 ## 📝 License
 
