@@ -1,0 +1,482 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.above_navbar {
+  display: none;
+}
+
+.nav_li {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__hamburger {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-top: 5%;
+}
+
+.logoimg {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(65, 66, 70, 0.9);
+  mix-blend-mode: multiply;
+  position: fixed;
+  z-index: 10000;
+  backdrop-filter: blur(10px);
+}
+
+.mobile-menu-item {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-left: 10%;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.mobile-menu i {
+  font-size: 30px;
+  color: #fff;
+  right: 0;
+  margin-left: 87%;
+  margin-top: 5%;
+}
+
+/* HOME PAGE STARTED */
+
+.homehead_about {
+  background-image: url(./images/base/mobile_intro_bgm.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.homepage {
+  margin-top: 10%;
+}
+
+.homeheadings {
+  color: red;
+  text-align: center;
+}
+
+.heading_c {
+  font-size: medium;
+}
+
+.heading_cr {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.home_description {
+  margin: 15px 1.5em 0;
+  padding: 1em 0.5em;
+  line-height: 150%;
+  font-size: 13px;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: #fff;
+  text-align: center;
+}
+
+.location {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.location p {
+  font-size: 11px;
+  line-height: 150%;
+}
+
+.loc_email {
+  text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.common_sec {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.common_heading::after {
+  content: '';
+  text-align: center;
+  position: absolute;
+  left: 46%;
+  display: block;
+  width: 7%;
+  height: 0.8px;
+  margin-top: 12px;
+  background-color: #ec5242;
+}
+
+.common_description {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.common_imgg {
+  width: 90%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.line {
+  content: '';
+  text-align: center;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0.1px;
+  margin-top: 12px;
+  background-color: rgb(206, 206, 206);
+}
+
+/* Last section started */
+
+.lastsec {
+  margin-top: 12%;
+  text-align: center;
+}
+
+.lastsec_heading {
+  margin-bottom: 25px;
+}
+
+.lastsec_heading::after {
+  content: '';
+  text-align: center;
+  position: absolute;
+  left: 46%;
+  display: block;
+  width: 5%;
+  height: 0.9px;
+  margin-top: 12px;
+  background-color: #ec5242;
+}
+
+.lastsec_description {
+  font-size: 13px;
+}
+
+.ig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+.blockd {
+  background-image: url('./images/other/coding_bootcamp_.png');
+  position: relative;
+  margin-bottom: 4%;
+  width: 455px;
+  height: 256px;
+}
+
+.blockd::before {
+  background-color: rgba(149, 40, 21, 0.7);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.blockdd {
+  background-image: url('./images/other/devbootcamp.png');
+  position: relative;
+  width: 455px;
+  height: 256px;
+}
+
+.blockdd::before {
+  background-color: rgba(149, 40, 21, 0.7);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.blockd_txt {
+  text-align: center;
+  margin-top: 22%;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 55px;
+}
+
+/* Lastsec ends */
+
+/* sponsors */
+
+.partner_heading {
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+
+.linespon {
+  content: '';
+  text-align: center;
+  width: 5%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #ec5242;
+  margin-top: 10px;
+}
+
+.sponsors {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #3e3e3e;
+}
+
+.sponsors_img_one {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: space-between;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-top: 6%;
+}
+
+.sponsors_img_two {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  justify-content: space-around;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-top: 6%;
+}
+
+/* Footer */
+
+.footer_aboutme {
+  height: 110px;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8%;
+  padding-left: 8%;
+}
+
+.footer_about_img {
+  display: flex;
+  justify-items: center;
+}
+
+.footer_about_img img {
+  width: 100px;
+  height: auto;
+}
+
+.footer_heading {
+  padding-left: 10%;
+}
+
+.footer_description {
+  display: none;
+}
+
+@media (min-width: 780px) {
+  .navigation__hamburger {
+    display: none;
+  }
+
+  .above_navbar {
+    display: block;
+    background-color: #3e3e3e;
+    height: 1.5em;
+  }
+
+  .above_navbar_link {
+    text-align: right;
+    color: #f7f7f7;
+    padding-right: 12%;
+  }
+
+  .above_navbar_link li {
+    display: inline;
+    font-size: small;
+    padding: 5px;
+  }
+
+  .fa-facebook-f {
+    padding-right: 10px;
+  }
+
+  .fa-twitter {
+    padding-right: 12px;
+  }
+
+  .navigation {
+    width: 100%;
+    height: 3em;
+  }
+
+  .navDesk {
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 500;
+    line-height: 10px;
+    font-size: 15px;
+    padding: 1em;
+  }
+
+  .nav_li {
+    padding-right: 12%;
+    display: block;
+  }
+
+  .navDesk a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #3e3e3e;
+  }
+
+  .navDesk :hover {
+    color: #ec5242;
+  }
+
+  .navDesk li {
+    display: inline;
+    padding-left: 35px;
+  }
+
+  .logoimg {
+    margin-left: 10%;
+    display: inline;
+  }
+
+  .logoimg img {
+    width: 100px;
+    height: 40px;
+  }
+
+  .homehead_about {
+    background-image: none;
+  }
+
+  .homepa {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f7f7f7;
+    background-image: url(./images/other/about_bg_01.png);
+  }
+
+  .homepage {
+    margin-top: 0%;
+  }
+
+  .heading_c {
+    display: none;
+  }
+
+  .heading_cr {
+    font-weight: bolder;
+    font-size: 60px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+  }
+
+  .home_description {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1em 0.5em;
+    line-height: 150%;
+    font-size: 13px;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #fff;
+  }
+
+  .common_imgg {
+    width: 40%;
+  }
+
+  .ig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+  }
+
+  .blockd {
+    background-image: url('./images/other/coding_bootcamp_.png');
+    position: relative;
+    margin-bottom: 0%;
+    margin-right: 3%;
+    width: 455px;
+    height: 256px;
+  }
+
+  /* Sponsors section */
+  .sponsors {
+    display: none;
+  }
+
+  .footer_aboutme {
+    background-color: #414246;
+  }
+
+  .footer_description {
+    display: flex;
+  }
+
+  .footer_content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom: 2%;
+    color: white;
+  }
+
+  .footer_about_img {
+    display: flex;
+    justify-items: center;
+  }
+
+  .footer_about_img img {
+    width: 200px;
+    height: 50px;
+  }
+
+  .footer_heading {
+    padding-left: 0%;
+    padding-bottom: 12px;
+    font-size: 13px;
+  }
+
+  .footer_desk {
+    padding-left: 20%;
+  }
+}
