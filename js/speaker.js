@@ -50,7 +50,7 @@ const createElementAndAppendToParent = (newElement, className, id, parent, HTMLt
 
 const speakerheading = createElementAndAppendToParent('div', 'speakerheading', 'spe', speaksection, '');
 const speakerheadingh = createElementAndAppendToParent('div', 'speakerheadingh', 'sp', speakerheading, '');
-const actualheading = createElementAndAppendToParent('h3', 'act_heading', 'act_heading', speakerheadingh, 'Featured Speakers');
+createElementAndAppendToParent('h3', 'act_heading', 'act_heading', speakerheadingh, 'Featured Speakers');
 const speakersec = createElementAndAppendToParent('div', 'speakersec', 'speakersec', speaksection, '');
 const speakerfordesk = createElementAndAppendToParent('div', 'speakerfordesk', 'speakerfordesk', speakersec, '');
 
@@ -58,9 +58,9 @@ const generateCards = (beginIndex, EndIndex) => {
   projectsInfo.slice(beginIndex, EndIndex).forEach((project) => {
     const speakersall = createElementAndAppendToParent('div', 'speakersall', 'speakersall', speakerfordesk, `<img class="speakerimge" src="${project.imgCard}" alt="speaker">`);
     const speakercontent = createElementAndAppendToParent('div', 'speakercontent', 'speakercontent', speakersall, '');
-    const speakername = createElementAndAppendToParent('h2', 'speakername', 'speakername', speakercontent, `${project.name}`);
-    const speakerintro = createElementAndAppendToParent('h5', 'speakerintro', 'speakerintro', speakercontent, `${project.intro}`);
-    const speakerdescription = createElementAndAppendToParent('p', 'speakerdescription', 'speakerdescription', speakercontent, `${project.description}`);
+    createElementAndAppendToParent('h2', 'speakername', 'speakername', speakercontent, `${project.name}`);
+    createElementAndAppendToParent('h5', 'speakerintro', 'speakerintro', speakercontent, `${project.intro}`);
+    createElementAndAppendToParent('p', 'speakerdescription', 'speakerdescription', speakercontent, `${project.description}`);
   });
 };
 const mor = createElementAndAppendToParent('button', 'more_button', 'more_button', speakersec, 'More');
@@ -72,8 +72,8 @@ if (screenSmall.matches) {
 
   const morcl = document.querySelector('.more_button');
 
-  morcl.addEventListener('click', function () {
-      generateCards(3, 6);
+  morcl.addEventListener('click', () => {
+    generateCards(3, 6);
 
     mor.style.display = 'none';
   });
