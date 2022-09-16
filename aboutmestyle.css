@@ -13,22 +13,12 @@
   display: none;
 }
 
-.header {
+.navigation {
+  display: flex;
   width: 100%;
-  height: 80px;
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-.navigation {
-  display: flex;
-}
-
-.header a {
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -36,6 +26,7 @@
   width: 24px;
   height: 24px;
   margin-left: 20px;
+  margin-top: 5%;
 }
 
 .logoimg {
@@ -61,6 +52,7 @@
   color: #fff;
   margin-left: 10%;
   margin-top: 5%;
+  text-decoration: none;
 }
 
 .mobile-menu i {
@@ -189,22 +181,60 @@
   font-size: 13px;
 }
 
-.lastsec_img {
-  padding: 10%;
-}
-
-.lastsec_imgs {
+.ig {
   display: flex;
   flex-direction: column;
-  padding-bottom: 4%;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 8%;
 }
 
+.blockd {
+  background-image: url('/images/other/coding_bootcamp_.png');
+  position: relative;
+  margin-bottom: 4%;
+  width: 455px;
+  height: 256px;
+}
+
+.blockd::before {
+  background-color: rgba(149, 40, 21, 0.7);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.blockdd {
+  background-image: url('/images/other/devbootcamp.png');
+  position: relative;
+  width: 455px;
+  height: 256px;
+}
+
+.blockdd::before {
+  background-color: rgba(149, 40, 21, 0.7);  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.blockd_txt {
+  text-align: center;
+  margin-top: 22%;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 55px;
+}
 /*Lastsec ends*/
 
 /*sponsors*/
 .partner_heading {
   text-align: center;
   color: #fff;
+  font-size: 13px;
 }
 
 .linespon {
@@ -304,12 +334,9 @@
     padding-right: 12px;
   }
 
-  .header {
-    height: 3em;
-  }
-
-  .navigation{
+  .navigation {
     width: 100%;
+    height: 3em;
   }
 
   .navDesk {
@@ -322,8 +349,18 @@
   }
 
   .nav_li {
-    padding-left: 20%;
+    padding-right: 12%;
     display: block;
+  }
+
+  .navDesk a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #3E3E3E;
+  }
+
+  .navDesk :hover {
+    color: #ec5242;
   }
 
   .navDesk li {
@@ -381,17 +418,23 @@
     width: 40%;
   }
 
-  .lastsec_img {
+  .ig {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0%;
-    padding-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 8%;
   }
 
-  .lastsec_imgs {
-    margin-right: 2%;
+  .blockd {
+    background-image: url('/images/other/coding_bootcamp_.png');
+    position: relative;
+    margin-bottom: 0%;
+    margin-right: 3%;
+    width: 455px;
+    height: 256px;
   }
+
 
 /*Sponsors section*/
   .sponsors {
