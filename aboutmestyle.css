@@ -189,7 +189,7 @@
 }
 
 .blockd {
-  background-image: url(.'/images/other/coding_bootcamp_.png');
+  background-image: url('./images/other/coding_bootcamp_.png');
   position: relative;
   margin-bottom: 4%;
   width: 455px;
@@ -206,7 +206,7 @@
 }
 
 .blockdd {
-  background-image: url(.'/images/other/devbootcamp.png');
+  background-image: url('./images/other/devbootcamp.png');
   position: relative;
   width: 455px;
   height: 256px;
@@ -430,7 +430,7 @@
   }
 
   .blockd {
-    background-image: url(.'/images/other/coding_bootcamp_.png');
+    background-image: url('./images/other/coding_bootcamp_.png');
     position: relative;
     margin-bottom: 0%;
     margin-right: 3%;
