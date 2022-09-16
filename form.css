@@ -9,7 +9,7 @@ label {
 
 .container {
   padding: 50px;
-  background-image: url(/images/base/pattern_bg.png);
+  background-image: url(./images/base/pattern_bg.png);
   background-color: rgb(38, 41, 50);
 }
 

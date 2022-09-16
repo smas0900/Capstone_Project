@@ -65,7 +65,7 @@
 /* HOME PAGE STARTED */
 
 .homehead {
-  background-image: url(/images/base/mobile_intro_bg.png);
+  background-image: url(./images/base/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -108,7 +108,7 @@
 /* Main program section starter */
 
 .m_program {
-  background-image: url(/images/base/pattern_bg.png);
+  background-image: url(./images/base/pattern_bg.png);
   background-color: rgb(38, 41, 50);
   display: flex;
   flex-direction: column;
@@ -359,7 +359,7 @@
   .homepa {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/images/base/main_big.png);
+    background-image: url(./images/base/main_big.png);
   }
 
   .homepage {
@@ -401,7 +401,7 @@
   /* Main program section starter */
 
   .m_program {
-    background-image: url(/images/base/pattern_bg.png);
+    background-image: url(./images/base/pattern_bg.png);
     background-color: rgb(38, 41, 50);
     display: flex;
     flex-direction: column;
