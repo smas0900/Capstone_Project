@@ -6,7 +6,6 @@
 
 [live demo](https://smas0900.github.io/Capstone_Project/)
 
-[Video link](https://www.loom.com/share/83ae31433784402fa1be6ead8f3ed87a)
 ## Built With
 
 - Major languages: Html, Css & Javascript
